@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // 出力先のJSバージョン
+    "module": "commonjs", // モジュールの形式
+    "strict": true, // 厳格モード
+    "esModuleInterop": true, // ESモジュールのインポートを許可
+    "skipLibCheck": true, // ライブラリの型チェックをスキップ
+    "outDir": "./dist", // コンパイル後の出力先ディレクトリ
+    "rootDir": "./src" // ソースコードのルートディレクトリ
+  },
+  "include": ["src/**/*.ts"], // コンパイル対象のファイル
+  "exclude": ["node_modules"] // 除外するディレクトリ
+}

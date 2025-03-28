@@ -1,0 +1,26 @@
+# Node.js
+/node_modules/
+
+# TypeScript ビルド出力
+/dist/
+/out/
+
+# ログファイル
+*.log
+
+# 環境変数ファイル (機密情報を含む場合)
+.env
+
+# IDE/エディタの設定ファイル
+.vscode/
+.idea/
+
+# OS によるファイル
+.DS_Store
+Thumbs.db
+
+# npm のパッケージキャッシュ
+.npm/
+
+# jest や他のテストツールで生成されるカバレッジ情報
+/coverage/

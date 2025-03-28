@@ -45,3 +45,12 @@ graph LR;
         C -->|ジョブ取得| D["Worker"]
 
 ```
+
+## ダッシュボードを起動
+
+以下のコマンドを実行すると、bull-board のダッシュボードが起動します。
+
+```bash
+npm run dev:dashboard
+http://localhost:3001/admin にアクセスすると、キューの状態をリアルタイムで確認できます 🎉
+```
